@@ -2,7 +2,7 @@
   "name": "cso-studio-lua-api",
   "displayName": "CSO Studio Lua API",
   "description": "Unofficial LuaLS definitions for the Counter-Strike Online Studio Lua API. / 카운터 스트라이크 온라인 스튜디오 Lua API에 대한 비공식 LuaLS 정의",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "AuMa",
   "main": "./extension.js",
   "activationEvents": [

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.6
+
+- Correction of incorrect information in `__DocWeapon`
+- After discovering an error where `Game.Monster:Hold()` and `Game.Monster:Stop()` did not function when their parameters were empty, parameters were added.
+
+## 0.1.5
+
+- Modifications to some of the code in `__DocWeapon`, `__DocMonster` and `__DocRenderFX`
+
 ## 0.1.4
 
 - Add Lua completion snippets for `__DocWeapon`, `__DocMonster`, and `__DocRenderFX`.
