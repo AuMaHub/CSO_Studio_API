@@ -1,0 +1,16 @@
+{
+  "name": "CSO Studio Lua API",
+  "words": [
+    "Game%.[A-Za-z_]+",
+    "UI%.[A-Za-z_]+",
+    "Common%.[A-Za-z_]+"
+  ],
+  "files": [
+    "game.lua",
+    "ui.lua",
+    "module.lua",
+    "module.game.lua",
+    "module.ui.lua"
+  ],
+  "settings": {}
+}

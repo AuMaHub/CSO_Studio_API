@@ -1,0 +1,60 @@
+{
+  "name": "cso-studio-lua-api",
+  "displayName": "CSO Studio Lua API",
+  "description": "Unofficial LuaLS definitions for the Counter-Strike Online Studio Lua API. / 카운터 스트라이크 온라인 스튜디오 Lua API에 대한 비공식 LuaLS 정의",
+  "version": "0.1.5",
+  "publisher": "AuMa",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:lua",
+    "onStartupFinished"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "keywords": [
+    "lua",
+    "luals",
+    "cso",
+    "counter-strike-online",
+    "studio",
+    "api",
+    "intellisense"
+  ],
+  "extensionDependencies": [
+    "sumneko.lua"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "csoStudioLuaApi.enableDefinitions",
+        "title": "CSO Studio Lua API: Enable Definitions"
+      },
+      {
+        "command": "csoStudioLuaApi.disableDefinitions",
+        "title": "CSO Studio Lua API: Disable Definitions"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AuMaHub/CSO_Studio_API.git"
+  },
+  "homepage": "https://github.com/AuMaHub/CSO_Studio_API#readme",
+  "bugs": {
+    "url": "https://github.com/AuMaHub/CSO_Studio_API/issues"
+  },
+  "icon": "icon.png",
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.1"
+  }
+}
